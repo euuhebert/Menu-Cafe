@@ -7,8 +7,24 @@ body {
     background-color: #deb887;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 h1, h2, p {
     text-align: center;
+}
+
+.item p {
+    display: inline-block;
+}
+
+.flavor, .dessert {
+    text-align: left;
+    width: 75%;
+}
+
+.price {
+    text-align: right;
+    width: 25%;
 }
